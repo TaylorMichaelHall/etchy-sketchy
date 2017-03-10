@@ -6,17 +6,15 @@ $(document).ready(function(){
     }
   }
 
+/* Working non-hover version
     $('.box').mouseenter(function(){
         $(this).addClass('sketched');
     });
-
-});
-
-
-/*
-$('.box').mouseEnter(function(){
-    $(this).addClass('sketched');
-}, function () {
-    $(this).removeClass('sketched');
-});
 */
+
+  $('.box').hover(function(){
+    $(this).addClass('pressed');
+  }, function() {
+        $(this).addClass('sketched');
+  });
+});

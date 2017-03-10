@@ -1,16 +1,18 @@
 body {
   height: 100%;
-  background: #aebcbf;
-  background: -moz-radial-gradient(center, ellipse cover, #aebcbf 0%, #6e7774 16%, #0a0809 100%);
-  background: -webkit-radial-gradient(center, ellipse cover, #aebcbf 0%,#6e7774 16%,#0a0809 100%);
-  background: radial-gradient(ellipse at center, #aebcbf 0%,#6e7774 16%,#0a0809 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=1 );
+
+  /* Background Gradient */
+  background: #3a84c3;
+  background: -moz-radial-gradient(center, ellipse cover,  #3a84c3 27%, #3a8bc2 58%, #26558b 100%);
+  background: -webkit-radial-gradient(center, ellipse cover,  #3a84c3 27%,#3a8bc2 58%,#26558b 100%);
+  background: radial-gradient(ellipse at center,  #3a84c3 27%,#3a8bc2 58%,#26558b 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a84c3', endColorstr='#26558b',GradientType=1 );
 }
 
 .box {
   width: 15px;
   height: 15px;
-  background-color: blue;
+  background-color: black;
   float:left;
   margin: 1px;
 }
@@ -20,9 +22,14 @@ body {
   margin-top: 30px;
   width: 850px;
   height:765px;
-  background-color: green;
+  background-color: grey;
+}
+
+/* pressed highlight just for fun */
+.pressed{
+  background-color: yellow;
 }
 
 .sketched {
-  background-color: yellow;
+  background-color: red;
 }
