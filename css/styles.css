@@ -1,0 +1,28 @@
+body {
+  height: 100%;
+  background: #aebcbf;
+  background: -moz-radial-gradient(center, ellipse cover, #aebcbf 0%, #6e7774 16%, #0a0809 100%);
+  background: -webkit-radial-gradient(center, ellipse cover, #aebcbf 0%,#6e7774 16%,#0a0809 100%);
+  background: radial-gradient(ellipse at center, #aebcbf 0%,#6e7774 16%,#0a0809 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=1 );
+}
+
+.box {
+  width: 15px;
+  height: 15px;
+  background-color: blue;
+  float:left;
+  margin: 1px;
+}
+
+#field {
+  margin:auto;
+  margin-top: 30px;
+  width: 850px;
+  height:765px;
+  background-color: green;
+}
+
+.sketched {
+  background-color: yellow;
+}
